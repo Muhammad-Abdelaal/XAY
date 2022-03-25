@@ -1,0 +1,19 @@
+.more-like-this-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+.more-like-title {
+    color: white;
+    margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+    .more-like-this-container {
+        grid-template-columns: repeat(4 ,1fr);
+    }
+}
+@media (min-width: 992px) {
+    .more-like-this-container {
+        grid-template-columns: repeat(5 ,1fr);
+    }
+}

@@ -1,0 +1,35 @@
+.carousel-media-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* width: 32%; */
+    /* background: orange; */
+}
+.carousel-media-item__link {
+    width: 100%;
+}
+.carousel-media-item__img {
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 350ms;
+}
+.carousel-media-item__img:hover {
+    transform: scale(1.04);
+}
+.carousel-media-item__title {
+    color: white;
+    margin-top: 7px;
+    
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+     
+    /* CONDITION FOR THE TITLE -----------------------------------------*/
+}
+
+@media (min-width: 992px) {
+    .carousel-media-item__img {
+        max-height: 391px;
+    }
+}
